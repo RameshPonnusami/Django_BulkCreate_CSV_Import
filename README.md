@@ -2,7 +2,7 @@
 Import CSV into table through Models by using BulkCreate
 
 # Class view 
-```
+```python
 class EmployeeUploadView(View):
     def get(self, request):
         template_name = 'importfarmer.html'
@@ -49,6 +49,7 @@ class EmployeeUploadView(View):
     os.path.join(BASE_DIR, 'static'),]
    ```
    # After login  redirect to home URL
+   here I'm using the  django.contrib.auth.views for login. After login page we should methion the redirect URL
    in settings.py
    ```python
    # I have extending the USER model in my app.
