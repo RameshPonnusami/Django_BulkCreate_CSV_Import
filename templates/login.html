@@ -1,0 +1,67 @@
+<html class="login-pf">
+
+<head>
+
+<meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly-additions.min.css">
+ {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+<style>
+   #id_username, #id_password {
+        width: 100%;
+        padding: 1%;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+   }
+   .max-block {
+        height:370px;
+   }
+   .btn-login {
+        width: 200px;
+   }
+</style>
+</head>
+
+<body>
+<div class="login-pf-page margin10">
+<div class="container-fluid">
+  <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+          
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+          <div class="card-pf max-block">
+              <header class="login-pf-header">
+                <select class="selectpicker">
+                  <option>English</option>
+                  <option>French</option>
+                  <option>Italian</option>
+                </select>
+<!--                <center><img class="logo-img" src="images/logo.png"></center>-->
+                <center><img class="logo-img" src="{% static 'images/logo.png' %}"></center>
+                <p class="text-center">Log in to <strong>FPO Application</strong></p>
+              </header>
+
+                 <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                     <br>
+                     <center><button type="submit" class="btn btn-primary btn-lg btn-login">Login</button></center>
+              </form>
+        </div><!-- card -->
+        
+      </div><!-- col -->
+    </div><!-- row -->
+  </div><!-- col -->
+</div><!-- login-pf-page -->
+</div><!--row-->
+</div><!--container-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/js/patternfly.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+
+</body>
+</html>
+  

@@ -1,0 +1,109 @@
+body {
+	background-color: #e2dfdf;
+}
+.navbar-pf-vertical {
+    background-color: #346888 !important;
+    border: none;
+    border-radius: 0;
+    border-top: 2px solid #39a5dc;
+    margin-bottom: 0;
+}
+.brand {
+	margin: 2px 20px 0 -6px;
+    float: left;
+}
+.nav-item-iconic {
+	padding: 15px !important;
+    margin: 5px;
+}
+.navbar-pf-vertical {
+    background-color: #004a4a !important;
+    border: none;
+    border-radius: 0;
+    border-top: 2px solid #39a5dc;
+    margin-bottom: 0;
+}
+img {
+    width: 50px;
+    height: 56px;
+    padding: 5px;
+    margin-top: -8px;
+    /* border: 2px solid #389a79; */
+    border-radius: 50%;
+    border-bottom: 2px solid #389a79;
+    border-top: 2px solid #389a79;
+    margin-bottom: 10px;
+}
+}
+.custom-card {
+	height: 288.667px;width: 302px !important;margin: 0px auto;
+}
+.card-pf.card-pf-accented.card-pf-aggregate-status.custom-card {
+	border-radius: 20% !important;
+border: 1px solid #a3c614;
+border-top: 1px solid #a3c614;
+}
+.card-pf-title{
+	padding: 1px;
+    margin: 19px !important;
+}
+.card-pf.card-pf-accented {
+    border-top-color: #fff !important;
+}
+.card-pf-heading {
+    border-bottom: 1px solid #39a5dc !important;
+    margin: 0 29px 27px !important;
+    padding: 0 6px 0 !important;
+}
+.active {
+	background: #fff;
+}
+.active a{	
+	color: #000 !important;
+}
+.main-menu li a {
+	font-weight: bold;
+	color: #ffffff;
+}
+.main-menu li {
+	border-right: 1px solid #a3c614;
+}
+.main-menu li:hover {
+	border-right: 1px solid #a3c614;
+	background: #ffffff;
+	color: #000;
+}
+.main-menu {
+	font-size: 11px;
+    margin-left: -6px;
+    background: #72310c;
+    color: #fff;
+}
+.card-pf-body {
+	height: 100px !important;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #fff !important;
+    color: #000;
+}
+.font20 {
+	font-size: 20px !important;
+}
+.font15{
+		font-size: 15px;
+}
+body {
+    background: url(../images/bg.jpg) !important;
+    background-color: #e2dfdf !important;
+}
+.logo-img {
+	border-radius: 0px !important;
+	width: 150px;
+    height: 100px;
+    border: navajowhite;
+    margin: 10px;
+}
+.margin10 {
+		margin-top: 10%;
+}
